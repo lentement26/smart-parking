@@ -29,7 +29,7 @@ def preprocess(imgOriginal):
 #Trả về ảnh xám và ảnh nhị phân
 # end function
 
-###################################################################################################
+######################################################################################################
 def extractValue(imgOriginal):
     height, width, numChannels = imgOriginal.shape
     imgHSV = np.zeros((height, width, 3), np.uint8)
